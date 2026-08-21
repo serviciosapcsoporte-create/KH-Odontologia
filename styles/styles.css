@@ -1,4 +1,4 @@
-/* ============================================
+﻿/* ============================================
    KH ODONTOLOGIA ESTETICA - Stylesheet
    Paleta: Fucsia #D81B60 | Rosa #E91E8C | Pastel #F8BBD0 | Crema #FFF8F0
    Tipografias: Poppins (titulos) + Nunito (cuerpo)
@@ -733,6 +733,16 @@ ul { list-style: none; }
   gap: 60px;
 }
 
+.service-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  margin: 24px 0;
+  box-shadow: var(--shadow);
+  object-fit: cover;
+}
+
 .service-detail h2 {
   font-size: 1.8rem;
   margin-bottom: 20px;
@@ -748,6 +758,38 @@ ul { list-style: none; }
 
 .service-detail ul {
   margin-bottom: 24px;
+}
+
+/* --- Gallery Images --- */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.gallery-item {
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  position: relative;
+  height: 200px;
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+  box-shadow: var(--shadow-lg);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--transition);
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
 }
 
 .service-detail ul li {
@@ -1037,3 +1079,4 @@ ul { list-style: none; }
   .why-us-grid { grid-template-columns: 1fr; }
   .team-grid { grid-template-columns: 1fr; }
 }
+
