@@ -3,72 +3,267 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nosotros - KH Odontología Estética</title>
-  <meta name="description" content="Conoce nuestro equipo de odontólogos en Barrio La Alquería, Bogotá.">
-  <link rel="canonical" href="https://khodontologia.com/nosotros">
+  <title>Nosotros | KH Odontología Estética - Odontólogo en Bogotá</title>
+  <meta name="description" content="Conoce al equipo de KH Odontología Estética. 5 odontólogas especializadas en el Barrio La Alquería, Bogotá. Atención personalizada desde 2014.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://khodontologia.com/nosotros.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/styles.css">
   <link rel="stylesheet" href="chat/cristal.css">
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": "MedicalClinic",
     "name": "KH Odontología Estética",
-    "description": "Clínica odontológica en Barrio La Alquería, Bogotá.",
-    "url": "https://khodontologia.com/nosotros",
+    "url": "https://khodontologia.com",
     "telephone": "+573125759211",
-    "address": {"@type":"PostalAddress","addressLocality":"Bogotá","addressRegion":"Bogotá D.C.","addressCountry":"CO"}
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bogotá",
+      "addressRegion": "Bogotá D.C.",
+      "addressCountry": "CO"
+    },
+    "medicalSpecialty": "Dentistry",
+    "employee": [
+      {
+        "@type": "Physician",
+        "name": "Dra. Katherine Hernandez",
+        "jobTitle": "Odontóloga General y Cosmética Dental",
+        "description": "Especialista en odontología general, rehabilitación oral y diseño de sonrisa. Graduada en 2006 de la Fundación Universitaria San Martín."
+      },
+      {
+        "@type": "Physician",
+        "name": "Dra. Ingrid Moreno",
+        "jobTitle": "Especialista en Ortodoncia",
+        "description": "Graduada en 2006 de la Universidad Nacional. Especialista en ortodoncia funcional y estética."
+      },
+      {
+        "@type": "Physician",
+        "name": "Dra. Patricia Rodríguez",
+        "jobTitle": "Especialista en Endodoncia",
+        "description": "Graduada de la Universidad El Bosque. Especialista en endodoncia con enfoque en precisión y tecnología de vanguardia."
+      },
+      {
+        "@type": "Physician",
+        "name": "Dra. Marcela Velandia",
+        "jobTitle": "Especialista en Periodoncia",
+        "description": "Especialista en periodoncia, ortodoncia y cirugía de implantes. Docente de postgrado en odontología."
+      },
+      {
+        "@type": "Physician",
+        "name": "Dra. Mónica Vásquez",
+        "jobTitle": "Especialista en Cirugía Maxilofacial",
+        "description": "Graduada de la Universidad Nacional de Colombia. Especialista en Cirugía Maxilofacial."
+      }
+    ]
   }
   </script>
 </head>
 <body>
+
+  <!-- Navbar -->
   <nav class="navbar">
     <div class="container">
-      <a href="index.html" class="navbar-logo"><img src="assets/logo/kh-logo-full.png" alt="KH Odontología Estética"></a>
+      <a href="index.html" class="navbar-logo">
+        <img src="assets/logo/kh-logo-full.png" alt="KH Odontología Estética Logo">
+      </a>
       <div class="navbar-menu">
         <a href="index.html">Inicio</a>
-        <a href="nosotros.html">Nosotros</a>
-        <a href="servicios/odontologia-general.html">Servicios</a>
+        <a href="nosotros.html" class="active">Nosotros</a>
+        <a href="servicios/index.html">Servicios</a>
         <a href="contacto.html">Contacto</a>
         <a href="#" class="navbar-cta" data-whatsapp data-message="Hola, escribo desde khodontologia.com, me gustaría cotizar un servicio.">Agendar Cita</a>
       </div>
-      <button class="hamburger"><span></span><span></span><span></span></button>
+      <button class="hamburger" aria-label="Menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </div>
   </nav>
-  <section class="hero" style="background: var(--crema);">
+
+  <!-- Page Hero -->
+  <section class="page-hero">
     <div class="container">
-      <div class="hero-content">
-        <span class="hero-badge">Nuestra Historia</span>
-        <h1>Compromiso con la Excelencia</h1>
-        <p>En KH Odontología Estética, cada día redefinimos la experiencia dental en Bogotá.</p>
-      </div>
-      <div class="hero-image" style="background: url(assets/images/hero-dental.jpg);"></div>
+      <h1>Nuestro Equipo</h1>
+      <p>Un equipo apasionado por lo que hacemos. Transformaremos tus expectativas sobre lo que debería ser un consultorio odontológico.</p>
     </div>
   </section>
+
+  <!-- Breadcrumb -->
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="index.html">Inicio</a>
+      <span>›</span>
+      <span>Nosotros</span>
+    </div>
+  </div>
+
+  <!-- Historia -->
+  <section class="section">
+    <div class="container">
+      <div class="about-preview">
+        <div>
+          <span class="badge" style="display:inline-block;background:var(--pink-pale);color:var(--primary);padding:6px 16px;border-radius:50px;font-size:0.8rem;font-weight:700;margin-bottom:12px;">Nuestra Historia</span>
+          <h2>Sonríe a nuestro lado</h2>
+          <p>Abrimos nuestra clínica en Bogotá en el 2014 con el objetivo de reinventar la experiencia dental. Creemos que ir al odontólogo debe ser una experiencia positiva para toda la familia, y estamos contribuyendo para que esto sea una realidad.</p>
+          <p>Nuestra clínica ofrece técnicas modernas, un equipo humano experimentado, equipos de alta tecnología y dedicamos el tiempo necesario para garantizarte una experiencia cómoda a nuestro lado.</p>
+          <p>Ya sea que necesite odontología general, tratamientos cosméticos, atención de emergencia o cirugía oral, KH Odontología Estética tiene la solución adecuada para ti.</p>
+        </div>
+        <div>
+          <img src="assets/images/dental-consult.jpg" alt="Equipo KH Odontología Estética">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Equipo -->
+  <section class="section" style="background:var(--white);">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">Nuestro Equipo</span>
+        <h2>Conoce a las Especialistas</h2>
+        <p>Nuestro equipo ama construir relaciones para toda la vida, creando experiencias positivas, ofreciendo garantía en cada procedimiento y entregando precios transparentes.</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="photo" style="background:var(--pink-pale);">🦷</div>
+          <div class="info">
+            <h3>Dra. Katherine Hernandez</h3>
+            <p class="specialty">General, Cosmética y Rehabilitación</p>
+            <p>Fundadora y directora. Odontóloga general, graduada en 2006 de la Fundación Universitaria San Martín. Especialista en cosmética dental y rehabilitación oral. Miembro activo de la Federación Odontológica Colombiana.</p>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="photo" style="background:var(--pink-pale);">😁</div>
+          <div class="info">
+            <h3>Dra. Ingrid Moreno</h3>
+            <p class="specialty">Especialista en Ortodoncia</p>
+            <p>Odontóloga general, graduada en 2006 de la Universidad Nacional. Especialista en ortodoncia funcional y estética. Comprometida con la excelencia y la formación continua.</p>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="photo" style="background:var(--pink-pale);">⚡</div>
+          <div class="info">
+            <h3>Dra. Patricia Rodríguez</h3>
+            <p class="specialty">Especialista en Endodoncia</p>
+            <p>Odontóloga general, graduada de la Universidad El Bosque. Especialista en endodoncia. Enfoque en atención de precisión con tecnología de vanguardia.</p>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="photo" style="background:var(--pink-pale);">🩺</div>
+          <div class="info">
+            <h3>Dra. Marcela Velandia</h3>
+            <p class="specialty">Periodoncia, Ortodoncia y Cirugía</p>
+            <p>Especialista en periodoncia, ortodoncia y cirugía de implantes. Docente de postgrado en la facultad de Odontología. Años de formación especializada.</p>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="photo" style="background:var(--pink-pale);">🏥</div>
+          <div class="info">
+            <h3>Dra. Mónica Vásquez</h3>
+            <p class="specialty">Cirugía Maxilofacial</p>
+            <p>Odontóloga general, graduada de la Universidad Nacional de Colombia. Especialista en Cirugía Maxilofacial. Comprometida con las últimas investigaciones odontológicas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pagos -->
   <section class="section">
     <div class="container">
       <div class="section-header">
-        <span class="badge">Nuestra Clínica</span>
-        <h2>Un Entorno Acogedor</h2>
-        <p>Nuestro consultorio en el Barrio La Alquería está diseñado para que te sientas como en casa desde el momento en que llegas.</p>
+        <span class="badge">Formas de Pago</span>
+        <h2>Tu sonrisa no tiene precio</h2>
+        <p>En KH Odontología, facilitamos las visitas al odontólogo, incluso a la hora de pagar tus tratamientos dentales.</p>
       </div>
-      <div class="services-grid">
-        <div class="service-card"><h3>Espacios cómodos</h3><p>Consultorios amplios y luminosos con luz natural.</p></div>
-        <div class="service-card"><h3>Tecnología de punta</h3><p>Equipamiento dental moderno para diagnósticos precisos y tratamientos eficientes.</p></div>
-        <div class="service-card"><h3>Confort garantizado</h3><p>Menú de confort: manta térmica, auriculares, Coffee Bar.</p></div>
+      <div class="why-us-grid">
+        <div class="why-item">
+          <div class="icon">💳</div>
+          <h3>Todos los Medios de Pago</h3>
+          <p>Aceptamos efectivo, tarjetas débito y crédito, transferencias bancarias. excepto datáfono.</p>
+        </div>
+        <div class="why-item">
+          <div class="icon">📊</div>
+          <h3>Plan de Ahorro</h3>
+          <p>Cuota diaria, semanal o mensual que te permiten alcanzar el presupuesto para tu tratamiento odontológico.</p>
+        </div>
+        <div class="why-item">
+          <div class="icon">🔒</div>
+          <h3>Congelamiento de Presupuesto</h3>
+          <p>Tu presupuesto se mantiene congelado hasta por 3 meses. Tarjeta personalizada para pagos.</p>
+        </div>
       </div>
     </div>
   </section>
+
+  <!-- CTA -->
+  <section class="section cta-section">
+    <div class="container">
+      <div class="cta-box">
+        <h2>¿Listo para conocernos?</h2>
+        <p>Agenda tu valoración y descubre por qué somos la opción dental de confianza en el Barrio La Alquería.</p>
+        <div class="btn-group">
+          <a href="#" class="btn btn-primary" data-whatsapp data-message="Hola, escribo desde khodontologia.com, me gustaría cotizar una valoración dental.">Agendar por WhatsApp</a>
+          <a href="contacto.html" class="btn btn-outline">Formulario de Contacto</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
   <footer class="footer">
     <div class="container">
       <div class="footer-grid">
-        <div class="footer-brand"><h3>KH Odontología Estética</h3><p>Sonríe a nuestro lado.</p></div>
-        <div class="footer-col"><h4>Nuestra Historia</h4><p>Fundada con la visión de ofrecer odontología estética de alta calidad en Bogotá.</p></div>
-        <div class="footer-col"><h4>Contacto</h4><ul><li>📞 (+57) 312 575 9211</li><li>📍 Barrio La Alquería, Bogotá</li></ul></div>
+        <div class="footer-brand">
+          <h3>KH Odontología Estética</h3>
+          <p>Sonríe a nuestro lado. Clínica odontológica en el Barrio La Alquería, Bogotá.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram">📷</a>
+            <a href="#" aria-label="Facebook">📘</a>
+            <a href="#" aria-label="TikTok">🎵</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Servicios</h4>
+          <ul>
+            <li><a href="servicios/odontologia-general.html">Odontología General</a></li>
+            <li><a href="servicios/cosmetica-dental.html">Cosmética Dental</a></li>
+            <li><a href="servicios/rehabilitacion-oral.html">Rehabilitación Oral</a></li>
+            <li><a href="servicios/ortodoncia.html">Ortodoncia</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Enlaces</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <ul>
+            <li>📞 (+57) 312 575 9211</li>
+            <li>📍 Barrio La Alquería, Bogotá</li>
+            <li>🕐 Lun-Vie: 8am-6pm</li>
+            <li>🕐 Sáb: 9am-2pm</li>
+          </ul>
+        </div>
       </div>
-      <div class="footer-bottom"><p>&copy; 2026 KH Odontología Estética. Todos los derechos reservados.</p></div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 KH Odontología Estética. Todos los derechos reservados. | <a href="https://dogweb.lat" target="_blank" style="color:var(--primary);text-decoration:none;">dogweb.lat</a></p>
+      </div>
     </div>
   </footer>
+
+  <a href="#" class="whatsapp-float" data-whatsapp data-message="Hola, escribo desde khodontologia.com, me gustaría cotizar sus servicios." aria-label="WhatsApp">💬</a>
+
   <script src="scripts/main.js"></script>
   <script src="chat/cristal-loader.js"></script>
 </body>
